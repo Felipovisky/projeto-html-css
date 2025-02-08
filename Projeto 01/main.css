@@ -1,0 +1,185 @@
+/* ==============================
+    RESET DE ESTILOS GERAIS
+   ============================== */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==============================
+    ESTILOS TIPOGRÁFICOS
+   ============================== */
+p {
+    font-family: "Roboto", serif;
+    color: #182C61;
+}
+
+h2, h3, form button {
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #182C61;
+}
+
+/* ==============================
+    ESTILO DO CABEÇALHO
+   ============================== */
+header {
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #182C61;
+    color: white;
+    padding: 12px;
+}
+
+/* Contêiner do cabeçalho */
+.header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu de navegação */
+header nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ==============================
+    SEÇÃO SOBRE A LOJA
+   ============================== */
+section .container {
+    display: flex;
+    max-width: 1280px;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+
+/* Elementos dentro do contêiner */
+.container h2, .container p {
+    margin-bottom: 10px;
+}
+
+.container li {
+    display: inline;
+    list-style-type: none;
+}
+
+.container > img {
+    height: 360px;
+    margin-right: 25px;
+}
+
+.container li img {
+    height: 24px;
+    margin-right: 24px;
+    margin-top: 10px;
+}
+
+/* ==============================
+    SEÇÃO DE CONTATO
+   ============================== */
+.contact {
+    display: flex;
+    max-width: 1280px;
+    margin: 30px auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Título da seção de contato */
+.line h2 {
+    max-width: 1280px;
+    margin: 42px auto 0;
+    display: flex;
+}
+
+/* ==============================
+    FORMULÁRIO DE CONTATO
+   ============================== */
+form input, form textarea, form button {
+    display: block;
+    margin-top: 10px;
+    width: 320px;
+    height: 36px;
+    padding: 8px;
+}
+
+/* Área de texto do formulário */
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Botão do formulário */
+form button {
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Efeito de hover no botão */
+form button:hover {
+    background-color: #2f50ac;
+}
+
+/* Placeholder dos campos de formulário */
+::placeholder {
+    font-family: "Roboto", serif;
+}
+
+/* Efeito de foco nos campos do formulário */
+.form input:focus, .form textarea:focus {
+    border-color: #182C61;
+}
+
+/* ==============================
+    REDES SOCIAIS
+   ============================== */
+.networks ul {
+    display: flex;
+}
+
+.networks ul li {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.contact img {
+    height: 24px;
+}
+
+/* ==============================
+    ENDEREÇO
+   ============================== */
+.adress p {
+    margin-top: 15px;
+}
+
+/* ==============================
+    RODAPÉ
+   ============================== */
+footer {
+    background-color: #182C61;
+    color: white;
+    padding: 16px 0;
+}
+
+footer div p {
+    color: white;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
